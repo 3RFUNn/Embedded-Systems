@@ -1,0 +1,54 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   5 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c1_slave"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_slave"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "idle_clocks"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "idle_clocks"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "button_old"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "button_old"\
+      SrcLocation  ""\
+      Dimensions   [1,8]\
+    }\
+    ChartData {\
+      Name         "from_wait_bus"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "from_wait_bus"\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
