@@ -1,0 +1,13 @@
+.Q3_e0,
+.Q3_e1,
+.Q3_e2,
+.Q3_e3,
+.Q3_e4,
+.Q3_e5 { background-image: url('Q3_e_icons.png'); width: 16px; height: 16px; }
+
+.Q3_e0 { background-position: -0px; }
+.Q3_e1 { background-position: -16px; }
+.Q3_e2 { background-position: -32px; }
+.Q3_e3 { background-position: -48px; }
+.Q3_e4 { background-position: -64px; }
+.Q3_e5 { background-position: -80px; }

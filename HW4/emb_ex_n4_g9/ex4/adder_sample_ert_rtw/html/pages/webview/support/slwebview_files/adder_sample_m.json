@@ -1,0 +1,39 @@
+[
+ {
+  "sid":"adder_sample",
+  "className":"Simulink.BlockDiagram",
+  "icon":"adder_sample0",
+  "name":"adder_sample",
+  "label":"adder_sample",
+  "parent":"",
+  "inspector":{
+   "params":[
+    "ModelVersion",
+    "LastModifiedDate",
+    "LibraryLinkDisplay",
+    "ModelBrowserVisibility",
+    "Dirty",
+    "Description"
+   ],
+   "values":[
+    "1.1",
+    "Fri Apr 21 22:18:25 2023",
+    "none",
+    "off",
+    "off",
+    ""
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ }
+]

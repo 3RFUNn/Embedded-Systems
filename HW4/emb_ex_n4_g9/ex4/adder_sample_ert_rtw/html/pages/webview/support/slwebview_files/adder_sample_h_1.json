@@ -1,0 +1,27 @@
+[
+ {
+  "hid":1,
+  "sid":"adder_sample",
+  "esid":"",
+  "parent":0,
+  "children":[
+  ],
+  "name":"adder_sample",
+  "fullname":"adder_sample",
+  "label":"adder_sample",
+  "icon":"adder_sample0",
+  "svg":"support/slwebview_files/adder_sample_d.svg",
+  "thumbnail":"support/slwebview_files/adder_sample_d.png",
+  "backingUrl":"support/slwebview_files/adder_sample_d.json",
+  "elements":[
+   ":146",
+   ":147",
+   ":148",
+   ":149",
+   ":146#out:1",
+   ":148#out:1",
+   ":149#out:1"
+  ],
+  "sameAsElement":false
+ }
+]

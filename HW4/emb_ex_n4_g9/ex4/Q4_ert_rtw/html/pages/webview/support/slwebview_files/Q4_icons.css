@@ -1,0 +1,13 @@
+.Q40,
+.Q41,
+.Q42,
+.Q43,
+.Q44,
+.Q45 { background-image: url('Q4_icons.png'); width: 16px; height: 16px; }
+
+.Q40 { background-position: -0px; }
+.Q41 { background-position: -16px; }
+.Q42 { background-position: -32px; }
+.Q43 { background-position: -48px; }
+.Q44 { background-position: -64px; }
+.Q45 { background-position: -80px; }

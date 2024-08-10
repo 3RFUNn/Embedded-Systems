@@ -1,0 +1,7 @@
+.adder_sample0,
+.adder_sample1,
+.adder_sample2 { background-image: url('adder_sample_icons.png'); width: 16px; height: 16px; }
+
+.adder_sample0 { background-position: -0px; }
+.adder_sample1 { background-position: -16px; }
+.adder_sample2 { background-position: -32px; }

@@ -1,0 +1,26 @@
+{
+ "baseUrl":"support/slwebview_files",
+ "homeHid":1,
+ "initialElement":"",
+ "sections":[
+  {
+   "hid":1,
+   "sid":"adder_sample",
+   "name":"adder_sample",
+   "fullname":"adder_sample",
+   "label":"adder_sample",
+   "parent":0,
+   "descendants":[
+   ],
+   "hierarchyUrl":"support/slwebview_files/adder_sample_h_1.json",
+   "backingUrl":"support/slwebview_files/adder_sample_m.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false,
+  "notes":false
+ },
+ "iconsUrl":"support/slwebview_files/adder_sample_icons.css"
+}
